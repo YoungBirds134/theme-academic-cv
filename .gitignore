@@ -28,6 +28,7 @@ Thumbs.db
 .env
 
 hugo_stats.json
+<<<<<<< HEAD
 .hugo_build.lock
 
 # Hugo binary (installed via scripts, do not commit)
@@ -62,3 +63,6 @@ Thumbs.db
 # Backup files
 *~
 *.bak
+=======
+.hugo_build.lock
+>>>>>>> origin/main

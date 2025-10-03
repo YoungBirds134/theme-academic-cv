@@ -24,8 +24,13 @@ role: Backend Software Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
+<<<<<<< HEAD
   - name: FPT Telecom
     url: https://fpt.vn/vi
+=======
+  - name: FPT Retail
+    url: https://frt.vn/en
+>>>>>>> origin/main
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -74,6 +79,7 @@ education:
     summary: |
 
 work:
+<<<<<<< HEAD
   - position: FullStack Software Engineer
     company_name: FPT Telecom
     company_url: ''
@@ -82,12 +88,18 @@ work:
     date_end: ''
     summary: |2-
       
+=======
+>>>>>>> origin/main
   - position: Backend Software Engineer
     company_name: FPT Retail
     company_url: ''
     company_logo: ''
     date_start: 2022-04-11
+<<<<<<< HEAD
     date_end: 2025-08-01
+=======
+    date_end: ''
+>>>>>>> origin/main
     summary: |2-
       Responsibilities include:
       - Integrated various vendor services, including bill payments (Payoo, SmartPay, Epay, FTEL,..),
