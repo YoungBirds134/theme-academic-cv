@@ -24,13 +24,8 @@ role: Backend Software Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-<<<<<<< HEAD
   - name: FPT Telecom
     url: https://fpt.vn/vi
-=======
-  - name: FPT Retail
-    url: https://frt.vn/en
->>>>>>> origin/main
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -38,18 +33,10 @@ profiles:
   - icon: at-symbol
     url: 'mailto:huynguyen2913@gmail.com'
     label: E-mail Me
-  # - icon: brands/x
-  #   url: https://twitter.com/GetResearchDev
-  # - icon: brands/instagram
-  #   url: https://www.instagram.com/
   - icon: brands/github
     url: https://github.com/YoungBirds134
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/huynt92/
-  # - icon: academicons/google-scholar
-  #   url: https://scholar.google.com/
-  # - icon: academicons/orcid
-  #   url: https://orcid.org/
 
 interests:
   - Distributed System
@@ -57,15 +44,6 @@ interests:
   - Deep Learning For Cybersecurity
 
 education:
-  # - area: PhD Artificial Intelligence
-  #   institution: Stanford University
-  #   date_start: 2016-01-01
-  #   date_end: 2020-12-31
-  #   summary: |
-  #     Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-  #   button:
-  #     text: 'Read Thesis'
-  #     url: 'https://example.com'
   - area: The Degree of Master Information Technology
     institution: Ho Chi Minh City University of Industry and Trade
     date_start: 2023-09-05
@@ -79,7 +57,6 @@ education:
     summary: |
 
 work:
-<<<<<<< HEAD
   - position: FullStack Software Engineer
     company_name: FPT Telecom
     company_url: ''
@@ -88,18 +65,12 @@ work:
     date_end: ''
     summary: |2-
       
-=======
->>>>>>> origin/main
   - position: Backend Software Engineer
     company_name: FPT Retail
     company_url: ''
     company_logo: ''
     date_start: 2022-04-11
-<<<<<<< HEAD
     date_end: 2025-08-01
-=======
-    date_end: ''
->>>>>>> origin/main
     summary: |2-
       Responsibilities include:
       - Integrated various vendor services, including bill payments (Payoo, SmartPay, Epay, FTEL,..),
@@ -169,9 +140,6 @@ languages:
     percent: 25
 
 # Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: Neural Networks and Deep Learning
     url: https://www.coursera.org/learn/neural-networks-deep-learning
@@ -179,7 +147,7 @@ awards:
     awarder: Coursera
     icon: coursera
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
+      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a network’s architecture; and apply deep learning to your own applications.
   - title: Blockchain Fundamentals
     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
     date: '2023-07-01'
