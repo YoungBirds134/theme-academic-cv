@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: main
 
-local_backend: true
+# local_backend: true # Bật lại khi test ở máy cục bộ
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
