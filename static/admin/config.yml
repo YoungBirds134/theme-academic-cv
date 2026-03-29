@@ -1,17 +1,118 @@
-# static/admin/config.yml
 backend:
   name: git-gateway
   branch: main
+
+local_backend: true
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
 
 collections:
-  - name: "pages"
-    label: "Pages"
-    folder: "content/en"
+  # --- CẤU HÌNH CHO TIẾNG ANH (EN) ---
+  - name: "authors_en"
+    label: "Profile (English)"
+    folder: "content/en/authors/admin"
+    create: false
+    delete: false
+    fields:
+      - { label: "Title", name: "title", widget: "string", required: false }
+      - { label: "First Name", name: "first_name", widget: "string" }
+      - { label: "Last Name", name: "last_name", widget: "string" }
+      - { label: "Role", name: "role", widget: "string" }
+      - { label: "Status Emoji", name: "status", widget: "object", fields: [{label: "Icon", name: "icon", widget: "string"}] }
+      - { label: "Interests", name: "interests", widget: "list" }
+      - { label: "Education", name: "education", widget: "list", fields: [
+          {label: "Area", name: "area", widget: "string"},
+          {label: "Institution", name: "institution", widget: "string"},
+          {label: "Start Date", name: "date_start", widget: "date", format: "YYYY-MM-DD"},
+          {label: "End Date", name: "date_end", widget: "date", format: "YYYY-MM-DD", required: false},
+          {label: "Summary", name: "summary", widget: "text", required: false}
+        ]}
+      - { label: "Work", name: "work", widget: "list", fields: [
+          {label: "Position", name: "position", widget: "string"},
+          {label: "Company", name: "company_name", widget: "string"},
+          {label: "Start Date", name: "date_start", widget: "date", format: "YYYY-MM-DD"},
+          {label: "End Date", name: "date_end", widget: "date", format: "YYYY-MM-DD", required: false},
+          {label: "Summary", name: "summary", widget: "text", required: false}
+        ]}
+      - { label: "Skills", name: "skills", widget: "list", fields: [
+          {label: "Category Name", name: "name", widget: "string"},
+          {label: "Items/Summary", name: "summary", widget: "text"}
+        ]}
+      - { label: "About Me (Body)", name: "body", widget: "markdown" }
+
+  - name: "blog_en"
+    label: "Blog (English)"
+    folder: "content/en/blog"
     create: true
-    slug: "{{slug}}"
+    slug: "{{slug}}/index"
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Authors", name: "authors", widget: "list", default: ["admin"] }
+      - { label: "Featured Image", name: "image", widget: "object", fields: [{label: "Caption", name: "caption", widget: "string", required: false}], required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+
+  # --- CẤU HÌNH CHO TIẾNG VIỆT (VI) ---
+  - name: "authors_vi"
+    label: "Hồ sơ (Tiếng Việt)"
+    folder: "content/vi/authors/admin"
+    create: false
+    delete: false
+    fields:
+      - { label: "Tiêu đề", name: "title", widget: "string", required: false }
+      - { label: "Họ và tên đệm", name: "first_name", widget: "string" }
+      - { label: "Tên", name: "last_name", widget: "string" }
+      - { label: "Chức danh", name: "role", widget: "string" }
+      - { label: "Sở thích", name: "interests", widget: "list" }
+      - { label: "Học vấn", name: "education", widget: "list", fields: [
+          {label: "Ngành học", name: "area", widget: "string"},
+          {label: "Trường", name: "institution", widget: "string"},
+          {label: "Bắt đầu", name: "date_start", widget: "date", format: "YYYY-MM-DD"},
+          {label: "Kết thúc", name: "date_end", widget: "date", format: "YYYY-MM-DD", required: false},
+          {label: "Mô tả", name: "summary", widget: "text", required: false}
+        ]}
+      - { label: "Kinh nghiệm", name: "work", widget: "list", fields: [
+          {label: "Vị trí", name: "position", widget: "string"},
+          {label: "Công ty", name: "company_name", widget: "string"},
+          {label: "Bắt đầu", name: "date_start", widget: "date", format: "YYYY-MM-DD"},
+          {label: "Kết thúc", name: "date_end", widget: "date", format: "YYYY-MM-DD", required: false},
+          {label: "Mô tả", name: "summary", widget: "text", required: false}
+        ]}
+      - { label: "Kỹ năng", name: "skills", widget: "list", fields: [
+          {label: "Nhóm kỹ năng", name: "name", widget: "string"},
+          {label: "Chi tiết", name: "summary", widget: "text"}
+        ]}
+      - { label: "Giới thiệu bản thân", name: "body", widget: "markdown" }
+
+  - name: "blog_vi"
+    label: "Blog (Tiếng Việt)"
+    folder: "content/vi/blog"
+    create: true
+    slug: "{{slug}}/index"
+    fields:
+      - { label: "Tiêu đề", name: "title", widget: "string" }
+      - { label: "Ngày đăng", name: "date", widget: "datetime" }
+      - { label: "Tóm tắt", name: "summary", widget: "text" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Tác giả", name: "authors", widget: "list", default: ["admin"] }
+      - { label: "Ảnh đại diện", name: "image", widget: "object", fields: [{label: "Chú thích", name: "caption", widget: "string", required: false}], required: false }
+      - { label: "Nội dung", name: "body", widget: "markdown" }
+
+  - name: "landing_pages"
+    label: "Landing Pages (Structure)"
+    files:
+      - label: "Experience Page (EN)"
+        name: "experience_en"
+        file: "content/en/experience.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Date", name: "date", widget: "datetime" }
+      - label: "Trang Kinh nghiệm (VI)"
+        name: "experience_vi"
+        file: "content/vi/experience.md"
+        fields:
+          - { label: "Tiêu đề", name: "title", widget: "string" }
+          - { label: "Ngày", name: "date", widget: "datetime" }
