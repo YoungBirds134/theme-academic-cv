@@ -13,11 +13,6 @@ interests:
   - Thiết Kế Kiến Trúc Hệ Thống
   - Học Sâu Trong An Toàn Thông Tin
 education:
-  - area: Thạc sĩ Công nghệ Thông tin
-    institution: Trường đại học Công Thương TP.HCM
-    date_start: 2023-09-05
-    date_end: ""
-    summary: ""
   - area: Kỹ sư Công nghệ Thông tin
     institution: Trường đại học Công Nghiệp Thực Phẩm TP.HCM
     date_start: 2018-08-15

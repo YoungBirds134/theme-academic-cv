@@ -4,9 +4,9 @@ organizations:
     url: https://fpt.vn/vi
 name_pronunciation: null
 title: null
-first_name: Nguyen Thanh Thanh
+first_name: Nguyen Thanh
 last_name: Huy
-role: Backend Software Engineer 1
+role: Backend Software Engineer
 status:
   icon: 🇻🇳
 interests:
@@ -116,11 +116,6 @@ skills:
       Methodologies: Agile (Scrum, Kanban)
 superuser: true
 education:
-  - area: The Degree of Master Information Technology
-    institution: Ho Chi Minh City University of Industry and Trade
-    date_start: 2023-09-05
-    date_end: ""
-    summary: ""
   - area: The Degree of Engineer Information Technology
     institution: Ho Chi Minh City University of Food Industry
     date_start: 2018-08-15
