@@ -16,11 +16,24 @@ interests:
 work:
   - position: FullStack Software Engineer
     company_name: FPT Telecom
-    company_url: ""
+    company_url: "https://fpt.vn/vi"
     company_logo: ""
     date_start: 2025-08-04
     date_end: ""
-    summary: ""
+    summary: >-
+      Responsibilities include:
+
+      - Architected and developed the **FCR (Fast Claim Resolution)** system using **.NET 8** and **React 19**, automating complex ISP claimed workflows.
+
+      - Redesigned automated processing logic, reducing manual operation time by **65%** and improving claim accuracy.
+
+      - Developed the **SMP (Service Management Portal)** on a microservices architecture, managing large-scale infrastructure monitoring and configurations.
+
+      - Optimized API performance to achieve sub-**150ms** latency for mission-critical management endpoints.
+
+      - Engineered high-concurrency solutions handling **3,000+ requests per second** during peak reconciliation windows.
+
+      - Implemented robust distributed caching and indexing strategies using **Redis** and **Elasticsearch** to ensure high availability and data integrity.
   - position: Backend Software Engineer
     company_name: FPT Retail
     company_url: ""

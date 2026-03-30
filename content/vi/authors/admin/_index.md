@@ -1,20 +1,20 @@
 ---
 organizations:
-  - name: FPT Retail
-    url: https://frt.vn/en
+  - name: FPT Telecom
+    url: https://fpt.vn/vi
 name_pronunciation: null
 superuser: true
 title: null
-first_name: Nguyễn Thanh Thanh
+first_name: Nguyễn Thanh
 last_name: Huy
-role: Backend Software Engineer
+role: Kỹ sư Phần mềm Backend
 interests:
   - Hệ Thống Phân Tán
   - Thiết Kế Kiến Trúc Hệ Thống
   - Học Sâu Trong An Toàn Thông Tin
 education:
   - area: Kỹ sư Công nghệ Thông tin
-    institution: Trường đại học Công Nghiệp Thực Phẩm TP.HCM
+    institution: Trường Đại học Công Thương TP.HCM
     date_start: 2018-08-15
     date_end: 2022-12-31
     summary: ""
@@ -27,14 +27,40 @@ profiles:
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/huynt92/
 work:
-  - position: Backend Software Engineer
+  - position: Kỹ sư Phần mềm FullStack
+    company_name: FPT Telecom
+    company_url: "https://fpt.vn/vi"
+    company_logo: ""
+    date_start: 2025-08-04
+    date_end: ""
+    summary: >-
+      Trách nhiệm bao gồm:
+
+
+      - Thiết kế kiến trúc và phát triển hệ thống **FCR (Fast Claim Resolution)** bằng **.NET 8** và **React 19**, tự động hóa các quy trình nghiệp vụ viễn thông phức tạp.
+
+
+      - Tối ưu hóa logic xử lý tự động, giúp giảm **65%** thời gian thao tác thủ công và nâng cao độ chính xác trong xử lý khiếu nại.
+
+
+      - Phát triển **SMP (Service Management Portal)** dựa trên kiến trúc microservices, phục vụ giám sát và cấu hình hạ tầng mạng quy mô lớn.
+
+
+      - Tối ưu hiệu năng API đạt độ trễ dưới **150ms** cho các đầu cuối quản trị trọng yếu.
+
+
+      - Triển khai giải pháp xử lý song song chịu tải cao, đáp ứng hơn **3.000 yêu cầu mỗi giây** trong các khung giờ cao điểm đối soát.
+
+
+      - Áp dụng các chiến lược cache phân tán và lập chỉ mục nâng cao với **Redis** và **Elasticsearch**, đảm bảo tính toàn vẹn dữ liệu và độ sẵn sàng của hệ thống.
+  - position: Kỹ sư Phần mềm Backend
     company_name: FPT Retail
     company_url: ""
     company_logo: ""
     date_start: 2022-04-11
-    date_end: ""
+    date_end: 2025-08-01
     summary: >-
-      Mô tả công việc:
+      Trách nhiệm bao gồm:
 
 
       - Tích hợp nhiều dịch vụ đối tác như thanh toán hóa đơn (Payoo, SmartPay, Epay, FTEL,...), phân phối mã phần mềm (PSD, FPT Play, HTECH,...), nạp tiền điện thoại, kích hoạt và bán SIM FPT, đảm bảo giao dịch trơn tru và hiệu suất hệ thống ổn định.
@@ -59,14 +85,14 @@ work:
 
 
       - Thực hiện kiểm thử tích hợp với Postman, giảm thiểu lỗi triển khai và tăng độ chính xác trong môi trường production.
-  - position: Intern Backend Software Engineer
+  - position: Thực tập sinh Kỹ sư Phần mềm Backend
     company_name: THL One
     company_url: ""
     company_logo: ""
     date_start: 2021-10-01
     date_end: 2022-04-01
     summary: >
-      Mô tả công việc:
+      Trách nhiệm bao gồm:
 
 
       - Thiết kế, phát triển và kiểm thử màn hình quản lý nhập dữ liệu cho hệ thống ERP.
@@ -82,6 +108,22 @@ work:
 
 
       - Hỗ trợ kiểm thử và xác minh hệ thống trước khi triển khai, đảm bảo độ ổn định và đáng tin cậy của hệ thống.
+skills:
+  - name: Công nghệ cốt lõi
+    summary: >
+      Công nghệ chính: C#, .NET Core, ASP.NET, Web API, Entity Framework Core
+
+      Kiến trúc & Mẫu thiết kế: Microservices, Domain-Driven Design, RESTful APIs
+
+      Cơ sở dữ liệu & Caching: Microsoft SQL Server, MongoDB, Redis
+
+      Message Brokers & Search Engine: Kafka, Elasticsearch
+
+      DevOps & Công cụ: Docker, Jenkins, Git, Jira, Postman
+
+      Giám sát: Elastic APM
+
+      Phương pháp luận: Agile (Scrum, Kanban)
 status:
   icon: 🇻🇳
 awards:
@@ -91,46 +133,35 @@ awards:
     awarder: Coursera
     icon: coursera
     summary: >
-      I studied the foundational concept of neural networks and deep learning.
-      By the end, I was familiar with the significant technological trends
-      driving the rise of deep learning; build, train, and apply fully connected
-      deep neural networks; implement efficient (vectorized) neural networks;
-      identify key parameters in a neural network’s architecture; and apply deep
-      learning to your own applications.
+      Tôi đã học các khái niệm nền tảng về mạng thần kinh và học sâu. Kết thúc khóa học, tôi đã nắm vững các xu hướng công nghệ thúc đẩy sự trỗi dậy của học sâu; xây dựng, huấn luyện và áp dụng các mạng thần kinh sâu; triển khai các mạng thần kinh hiệu quả (vector hóa); và ứng dụng học sâu vào các bài toán thực tế.
   - title: Blockchain Fundamentals
     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
     date: 2023-07-01
     awarder: edX
     icon: edx
     summary: >
-      Learned:
+      Kiến thức đạt được:
 
-      - Synthesize your own blockchain solutions
+      - Tổng hợp các giải pháp blockchain của riêng bạn.
 
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
+      - Hiểu sâu về cơ chế hoạt động chi tiết của Bitcoin.
 
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: Object-Oriented Programming in R
+      - Hiểu các ứng dụng thực tế của Bitcoin, Ethereum, hợp đồng thông minh (smart contracts) và các lựa chọn thay thế cho thuật toán đồng thuận Proof-of-Work.
+  - title: 'Object-Oriented Programming in R'
     url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
     certificate_url: https://www.datacamp.com
     date: 2023-01-21
     awarder: datacamp
     icon: datacamp
     summary: >
-      Object-oriented programming (OOP) lets you specify relationships between
-      functions and the objects that they can act on, helping you manage
-      complexity in your code. This is an intermediate level course, providing
-      an introduction to OOP, using the S3 and R6 systems. S3 is a great
-      day-to-day R programming tool that simplifies some of the functions that
-      you write. R6 is especially useful for industry-specific analyses, working
-      with web APIs, and building GUIs.
+      Lập trình hướng đối tượng (OOP) cho phép bạn chỉ định mối quan hệ giữa các hàm và đối tượng, giúp quản lý độ phức tạp trong mã nguồn. Đây là khóa học cấp độ trung cấp về hệ thống S3 và R6 trong ngôn ngữ R, ứng dụng cho việc phân tích dữ liệu chuyên sâu và xây dựng GUI.
 highlight_name: true
 languages:
-  - name: English
+  - name: Tiếng Anh
     percent: 100
-  - name: Chinese
+  - name: Tiếng Trung
     percent: 75
-  - name: Portuguese
+  - name: Tiếng Bồ Đào Nha
     percent: 25
 ---
 
