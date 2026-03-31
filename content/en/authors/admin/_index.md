@@ -3,6 +3,7 @@ organizations:
   - name: FPT Telecom
     url: https://fpt.vn/vi
 name_pronunciation: null
+superuser: true
 title: null
 first_name: Nguyen Thanh
 last_name: Huy
@@ -21,19 +22,19 @@ work:
     date_start: 2025-08-04
     date_end: ""
     summary: >-
-      Responsibilities include:
+      Core Responsibilities & Achievements:
 
-      - Architected and developed the **FCR (Fast Claim Resolution)** system using **.NET 8** and **React 19**, automating complex ISP claimed workflows.
+      - Architected and developed the **FCR (Fast Claim Resolution)** system, a comprehensive **Post-Sales Management** platform using **.NET 8** and **React 19**.
 
-      - Redesigned automated processing logic, reducing manual operation time by **65%** and improving claim accuracy.
+      - Streamlined complex ISP claimed workflows, including **Service Liquidation** (IVoice, IDC, SM, Leasedline) and **IDC Service Renewal**.
 
-      - Developed the **SMP (Service Management Portal)** on a microservices architecture, managing large-scale infrastructure monitoring and configurations.
+      - Implemented automated **Business Rules** and decision-making logic, increasing operational efficiency and reducing manual handling time by **65%**.
 
-      - Optimized API performance to achieve sub-**150ms** latency for mission-critical management endpoints.
+      - Developed the **SMP (Service Management Portal) v2.0**, transitioning from legacy Web MVC to a modern **Microservices & API-first** architecture.
 
-      - Engineered high-concurrency solutions handling **3,000+ requests per second** during peak reconciliation windows.
+      - Integrated advanced monitoring for **service deployment**, **request handling**, and a **Central Gateway** for unified system access.
 
-      - Implemented robust distributed caching and indexing strategies using **Redis** and **Elasticsearch** to ensure high availability and data integrity.
+      - Optimized API performance to achieve sub-**150ms** latency and handled high-concurrency traffic of **3,000+ requests per second** using **Redis** and **Elasticsearch**.
   - position: Backend Software Engineer
     company_name: FPT Retail
     company_url: ""
@@ -41,48 +42,17 @@ work:
     date_start: 2022-04-11
     date_end: 2025-08-01
     summary: >-
-      Responsibilities include:
+      Key Work:
 
-      - Integrated various vendor services, including bill payments (Payoo, SmartPay, Epay, FTEL,..),
+      - Integrated payment services (**Payoo**, **SmartPay**, **Epay**) and software distribution systems using **.NET Core 2.1** and **.NET 6**.
 
-      software key distribution (PSD, FPT Play, HTECH,...), mobile top-up and recharge, and SIM
+      - Optimized **SQL Server** execution plans and **Elasticsearch DSL** to improve query performance and indexing efficiency.
 
-      FPT activation and sales, ensuring smooth transactions and efficient system performance.
+      - Refactored **Microservices** APIs to reduce latency and enhance system scalability.
 
+      - Managed high-volume concurrent transactions using **Data Versioning** and **Pub/Sub** patterns with **Kafka** and **Redis**.
 
-      - Resolved technical debt by upgrading the system from .NET Core 2.1 to .NET 6, improving
-
-      performance, security, and maintainability.
-
-
-      - Optimized SQL query execution plans and Elasticsearch DSL, improving indexing efficiency,
-
-      minimizing round-trip time, and enhancing overall query performance.
-
-
-      - Refactored APIs to reduce latency (under 200ms), increase throughput, and optimize
-
-      microservices performance, enhancing scalability and system resilience.
-
-
-      - Reduced service bottlenecks by 70% during peak transaction periods, enhancing system
-
-      performance, throughput, and responsiveness.
-
-
-      - Handled concurrent transactions using Data Versioning and the Pub/Sub Pattern, ensuring
-
-      data consistency.
-
-
-      - Handled a high-throughput system, processing 5,000 requests per second, ensuring
-
-      scalability, performance
-
-
-      - Performed integration testing using Postman, improving deployment accuracy and reducing
-
-      errors in the production environment.
+      - Conducted rigorous **Integration Testing** using **Postman** to ensure production reliability.
   - position: Intern Backend Software Engineer
     company_name: THL One
     company_url: ""
@@ -90,44 +60,31 @@ work:
     date_start: 2021-10-01
     date_end: 2022-04-01
     summary: >
-      Responsibilities include:
+      Key Work:
 
-      - Designed, developed, and tested a data import management screen for the ERP system
+      - Developed and tested data management screens for the **ERP** system.
 
+      - Implemented **CRUD** operations using **ADO.NET** and **SQL Server**, optimizing data processing speed.
 
-      - Implemented CRUD operations using ADO.NET and SQL Server, improving data processing
+      - Gained experience with **MVC** framework for backend logic and data flow management.
 
-      speed and reducing query execution time
-
-
-      - Gained hands-on experience with the MVC framework, working on backend logic, data flow
-
-      management, and improving system maintainability
-
-
-      - Developed and optimized user interfaces using DevExtreme UI, HTML/CSS, and JavaScript,
-
-      enhancing the user experience and system responsiveness
-
-
-      - Assisted in testing and validation, ensuring system reliability before deployment
+      - Built user interfaces using **DevExtreme UI** and **JavaScript**.
 skills:
   - name: Core Technologies
     summary: >
-      Core Technologies: C#, .NET Core, ASP.NET, Web API, Entity Framework Core
+      Core Technologies: **C#**, **.NET Core**, **ASP.NET**, **Web API**, **Entity Framework Core**
 
-      Architecture & Patterns: Microservices, Domain-Driven Design , RESTful APIs
+      Architecture & Patterns: **Microservices**, **Domain-Driven Design**, **RESTful APIs**
 
-      Database & Caching: Microsoft SQL Server, MongoDB, Redis
+      Database & Caching: **Microsoft SQL Server**, **MongoDB**, **Redis**
 
-      Message Brokers & Search Engine: Kafka, Elasticsearch
+      Message Brokers & Search Engine: **Kafka**, **Elasticsearch**
 
-      DevOps & Tools: Docker, Jenkins, Git, Jira, Postman
+      DevOps & Tools: **Docker**, **Jenkins**, **Git**, **Jira**, **Postman**
 
-      Monitoring: Elastic APM
+      Monitoring: **Elastic APM**
 
-      Methodologies: Agile (Scrum, Kanban)
-superuser: true
+      Methodologies: **Agile (Scrum, Kanban)**
 education:
   - area: The Degree of Engineer Information Technology
     institution: Ho Chi Minh City University of Food Industry
@@ -149,25 +106,14 @@ awards:
     awarder: Coursera
     icon: coursera
     summary: >
-      I studied the foundational concept of neural networks and deep learning.
-      By the end, I was familiar with the significant technological trends
-      driving the rise of deep learning; build, train, and apply fully connected
-      deep neural networks; implement efficient (vectorized) neural networks;
-      identify key parameters in a network’s architecture; and apply deep
-      learning to your own applications.
+      Completed foundational course on neural networks and deep learning, including building and training practical models.
   - title: Blockchain Fundamentals
     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
     date: 2023-07-01
     awarder: edX
     icon: edx
     summary: >
-      Learned:
-
-      - Synthesize your own blockchain solutions
-
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
+      Studied Bitcoin mechanics, Ethereum, smart contracts, and real-world blockchain applications.
   - title: Object-Oriented Programming in R
     url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
     certificate_url: https://www.datacamp.com
@@ -175,13 +121,7 @@ awards:
     awarder: datacamp
     icon: datacamp
     summary: >
-      Object-oriented programming (OOP) lets you specify relationships between
-      functions and the objects that they can act on, helping you manage
-      complexity in your code. This is an intermediate level course, providing
-      an introduction to OOP, using the S3 and R6 systems. S3 is a great
-      day-to-day R programming tool that simplifies some of the functions that
-      you write. R6 is especially useful for industry-specific analyses, working
-      with web APIs, and building GUIs.
+      Course on OOP in R, focusing on managing complexity through S3 and R6 systems.
 highlight_name: true
 languages:
   - name: English
@@ -194,10 +134,10 @@ languages:
 
 ## About Me
 
-I'm Nguyen Thanh Huy, a backend software engineer with a strong focus on building stable, high-performance systems that meet real-world business needs.
+I'm Nguyen Thanh Huy, a backend software engineer specialized in building stable, high-performance systems.
 
-With experience in designing and maintaining backend services, I’ve worked on systems that handle high volumes of transactions, integrate with multiple external APIs, and follow modern software architecture principles such as microservices and domain-driven design. I’m proficient in technologies like .NET, Redis, MongoDB, Kafka, and Elasticsearch, and I'm comfortable working in fast-paced, production-critical environments.
+I have experience in developing backend services for high-traffic systems, integrating third-party APIs, and applying architectural patterns such as **Microservices** and **Domain-Driven Design (DDD)**. I work regularly with **.NET**, **Redis**, **MongoDB**, **Kafka**, and **Elasticsearch**.
 
-Beyond day-to-day development, I care about writing clean, maintainable code and applying best practices in performance optimization, scalability, and data consistency. I also have hands-on experience with CI/CD pipelines, Docker-based deployments, and monitoring tools to ensure reliability at scale.
+I prioritize clean, maintainable code and performance optimization to ensure high system availability. Additionally, I have experience with **CI/CD** pipelines and using **Docker** for deployment.
 
-I believe that good software is not only about code, but about solving problems, improving user experience, and delivering long-term value. I’m always eager to learn, grow, and contribute to meaningful projects.
+My goal is to solve practical technical challenges and deliver long-term value to products.
