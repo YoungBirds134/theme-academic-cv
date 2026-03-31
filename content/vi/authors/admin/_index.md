@@ -9,12 +9,12 @@ first_name: Nguyễn Thanh
 last_name: Huy
 role: Kỹ sư Phần mềm Backend
 interests:
-  - Hệ Thống Phân Tán
-  - Thiết Kế Kiến Trúc Hệ Thống
-  - Học Sâu Trong An Toàn Thông Tin
+  - Hệ thống phân tán
+  - Kiến trúc hệ thống
+  - Học sâu trong an toàn thông tin
 education:
   - area: Kỹ sư Công nghệ Thông tin
-    institution: Trường Đại học Công Thương TP.HCM
+    institution: Trường Đại học Công Nghiệp Thực Phẩm TP.HCM
     date_start: 2018-08-15
     date_end: 2022-12-31
     summary: ""
@@ -34,25 +34,25 @@ work:
     date_start: 2025-08-04
     date_end: ""
     summary: >-
-      Trách nhiệm bao gồm:
+      Trách nhiệm và Thành tựu chính:
 
 
-      - Thiết kế kiến trúc và phát triển hệ thống **FCR (Fast Claim Resolution)** bằng **.NET 8** và **React 19**, tự động hóa các quy trình nghiệp vụ viễn thông phức tạp.
+      - Thiết kế kiến trúc và phát triển hệ thống **FCR (Fast Claim Resolution)**, nền tảng **Quản lý sau bán hàng (Post-Sales Management)** sử dụng **.NET 8** và **React 19**.
 
 
-      - Tối ưu hóa logic xử lý tự động, giúp giảm **65%** thời gian thao tác thủ công và nâng cao độ chính xác trong xử lý khiếu nại.
+      - Tối ưu hóa các quy trình nghiệp vụ viễn thông phức tạp như **Thanh lý dịch vụ** (IVoice, IDC, SM, Leasedline) và **Gia hạn dịch vụ IDC**.
 
 
-      - Phát triển **SMP (Service Management Portal)** dựa trên kiến trúc microservices, phục vụ giám sát và cấu hình hạ tầng mạng quy mô lớn.
+      - Xây dựng các **Business Rule** và logic quyết định tự động, giúp tăng hiệu quả vận hành và giảm **65%** thời gian xử lý thủ công.
 
 
-      - Tối ưu hiệu năng API đạt độ trễ dưới **150ms** cho các đầu cuối quản trị trọng yếu.
+      - Phát triển **SMP (Service Management Portal) v2.0**, chuyển đổi từ Web MVC cũ sang kiến trúc **Microservices & API-first** hiện đại.
 
 
-      - Triển khai giải pháp xử lý song song chịu tải cao, đáp ứng hơn **3.000 yêu cầu mỗi giây** trong các khung giờ cao điểm đối soát.
+      - Tích hợp các chức năng giám sát **triển khai dịch vụ**, **xử lý yêu cầu** và xây dựng **Central Gateway** tập trung.
 
 
-      - Áp dụng các chiến lược cache phân tán và lập chỉ mục nâng cao với **Redis** và **Elasticsearch**, đảm bảo tính toàn vẹn dữ liệu và độ sẵn sàng của hệ thống.
+      - Tối ưu hiệu năng API đạt độ trễ dưới **150ms** và xử lý lưu lượng lớn **3.000+ request/giây** bằng **Redis** và **Elasticsearch**.
   - position: Kỹ sư Phần mềm Backend
     company_name: FPT Retail
     company_url: ""
@@ -60,31 +60,22 @@ work:
     date_start: 2022-04-11
     date_end: 2025-08-01
     summary: >-
-      Trách nhiệm bao gồm:
+      Các công việc chính:
 
 
-      - Tích hợp nhiều dịch vụ đối tác như thanh toán hóa đơn (Payoo, SmartPay, Epay, FTEL,...), phân phối mã phần mềm (PSD, FPT Play, HTECH,...), nạp tiền điện thoại, kích hoạt và bán SIM FPT, đảm bảo giao dịch trơn tru và hiệu suất hệ thống ổn định.
+      - Tích hợp các dịch vụ thanh toán (**Payoo**, **SmartPay**, **Epay**) và hệ thống phân phối mã phần mềm bằng **.NET Core 2.1** và **.NET 6**.
 
 
-      - Xử lý nợ kỹ thuật bằng cách nâng cấp hệ thống từ .NET Core 2.1 lên .NET 6, cải thiện hiệu năng, bảo mật và khả năng bảo trì.
+      - Tối ưu hóa kế hoạch thực thi **SQL Server** và **Elasticsearch DSL** để cải thiện tốc độ truy vấn và hiệu quả lập chỉ mục.
 
 
-      - Tối ưu hóa kế hoạch thực thi truy vấn SQL và Elasticsearch DSL nhằm tăng hiệu quả lập chỉ mục, giảm thời gian phản hồi và cải thiện hiệu suất truy vấn tổng thể.
+      - Refactor các API **Microservices** nhằm giảm độ trễ và tăng khả năng mở rộng hệ thống.
 
 
-      - Refactor lại các API để giảm độ trễ xuống dưới 200ms, tăng thông lượng, và tối ưu hóa hiệu năng microservices, giúp hệ thống linh hoạt và dễ mở rộng hơn.
+      - Quản lý các giao dịch đồng thời quy mô lớn bằng mô hình **Data Versioning** và **Pub/Sub** với **Kafka** và **Redis**.
 
 
-      - Giảm 70% tình trạng nghẽn cổ chai trong các khung giờ cao điểm, cải thiện khả năng phản hồi và thông lượng hệ thống.
-
-
-      - Xử lý các giao dịch đồng thời bằng cách sử dụng Data Versioning và mô hình Pub/Sub, đảm bảo tính nhất quán dữ liệu.
-
-
-      - Vận hành hệ thống có lưu lượng cao, xử lý lên đến 5.000 request mỗi giây, đảm bảo khả năng mở rộng và hiệu suất ổn định.
-
-
-      - Thực hiện kiểm thử tích hợp với Postman, giảm thiểu lỗi triển khai và tăng độ chính xác trong môi trường production.
+      - Thực hiện **Kiểm thử tích hợp (Integration Testing)** bằng **Postman** để đảm bảo độ tin cậy của hệ thống.
   - position: Thực tập sinh Kỹ sư Phần mềm Backend
     company_name: THL One
     company_url: ""
@@ -92,38 +83,31 @@ work:
     date_start: 2021-10-01
     date_end: 2022-04-01
     summary: >
-      Trách nhiệm bao gồm:
+      Các công việc chính:
 
 
-      - Thiết kế, phát triển và kiểm thử màn hình quản lý nhập dữ liệu cho hệ thống ERP.
+      - Phát triển và kiểm thử các màn hình quản lý dữ liệu cho hệ thống **ERP**.
 
 
-      - Thực hiện các thao tác CRUD sử dụng ADO.NET và SQL Server, giúp tăng tốc độ xử lý dữ liệu và giảm thời gian thực thi truy vấn.
+      - Thực hiện các nghiệp vụ **CRUD** sử dụng **ADO.NET** và **SQL Server**, tối ưu hóa tốc độ xử lý dữ liệu.
 
 
-      - Làm việc trực tiếp với mô hình MVC, đảm nhiệm logic xử lý backend, quản lý luồng dữ liệu và cải thiện khả năng bảo trì hệ thống.
+      - Làm việc với mô hình **MVC** để xử lý logic backend và quản lý luồng dữ liệu.
 
 
-      - Phát triển và tối ưu giao diện người dùng bằng DevExtreme UI, HTML/CSS và JavaScript, nâng cao trải nghiệm người dùng và cải thiện hiệu suất giao diện.
-
-
-      - Hỗ trợ kiểm thử và xác minh hệ thống trước khi triển khai, đảm bảo độ ổn định và đáng tin cậy của hệ thống.
+      - Tham gia phát triển giao diện người dùng bằng **DevExtreme UI** và **JavaScript**.
 skills:
-  - name: Công nghệ cốt lõi
+  - name: Kỹ năng chuyên môn
     summary: >
-      Công nghệ chính: C#, .NET Core, ASP.NET, Web API, Entity Framework Core
+      Công nghệ: **C#**, **.NET Core**, **ASP.NET**, **Web API**, **Entity Framework Core**
 
-      Kiến trúc & Mẫu thiết kế: Microservices, Domain-Driven Design, RESTful APIs
+      Kiến trúc: **Microservices**, **Domain-Driven Design**, **RESTful APIs**
 
-      Cơ sở dữ liệu & Caching: Microsoft SQL Server, MongoDB, Redis
+      Dữ liệu & Caching: **SQL Server**, **MongoDB**, **Redis**, **Elasticsearch**
 
-      Message Brokers & Search Engine: Kafka, Elasticsearch
+      Công cụ & DevOps: **Docker**, **Jenkins**, **Kafka**, **Git**, **Jira**, **Postman**
 
-      DevOps & Công cụ: Docker, Jenkins, Git, Jira, Postman
-
-      Giám sát: Elastic APM
-
-      Phương pháp luận: Agile (Scrum, Kanban)
+      Quy trình: **Agile (Scrum, Kanban)**
 status:
   icon: 🇻🇳
 awards:
@@ -133,20 +117,14 @@ awards:
     awarder: Coursera
     icon: coursera
     summary: >
-      Tôi đã học các khái niệm nền tảng về mạng thần kinh và học sâu. Kết thúc khóa học, tôi đã nắm vững các xu hướng công nghệ thúc đẩy sự trỗi dậy của học sâu; xây dựng, huấn luyện và áp dụng các mạng thần kinh sâu; triển khai các mạng thần kinh hiệu quả (vector hóa); và ứng dụng học sâu vào các bài toán thực tế.
+      Hoàn thành khóa học về các khái niệm nền tảng của mạng thần kinh và học sâu, bao gồm việc xây dựng và huấn luyện các mô hình thực tế.
   - title: Blockchain Fundamentals
     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
     date: 2023-07-01
     awarder: edX
     icon: edx
     summary: >
-      Kiến thức đạt được:
-
-      - Tổng hợp các giải pháp blockchain của riêng bạn.
-
-      - Hiểu sâu về cơ chế hoạt động chi tiết của Bitcoin.
-
-      - Hiểu các ứng dụng thực tế của Bitcoin, Ethereum, hợp đồng thông minh (smart contracts) và các lựa chọn thay thế cho thuật toán đồng thuận Proof-of-Work.
+      Tìm hiểu về cơ chế hoạt động của Bitcoin, Ethereum và các ứng dụng thực tế của công nghệ blockchain.
   - title: 'Object-Oriented Programming in R'
     url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
     certificate_url: https://www.datacamp.com
@@ -154,7 +132,7 @@ awards:
     awarder: datacamp
     icon: datacamp
     summary: >
-      Lập trình hướng đối tượng (OOP) cho phép bạn chỉ định mối quan hệ giữa các hàm và đối tượng, giúp quản lý độ phức tạp trong mã nguồn. Đây là khóa học cấp độ trung cấp về hệ thống S3 và R6 trong ngôn ngữ R, ứng dụng cho việc phân tích dữ liệu chuyên sâu và xây dựng GUI.
+      Khóa học về lập trình hướng đối tượng trong ngôn ngữ R, tập trung vào việc quản lý độ phức tạp thông qua hệ thống S3 và R6.
 highlight_name: true
 languages:
   - name: Tiếng Anh
@@ -165,12 +143,12 @@ languages:
     percent: 25
 ---
 
-## Về Tôi
+## Giới thiệu
 
-Tôi là Nguyễn Thanh Huy, kỹ sư phần mềm backend với định hướng xây dựng các hệ thống ổn định, hiệu suất cao và đáp ứng tốt nhu cầu thực tế của doanh nghiệp.
+Tôi là Nguyễn Thanh Huy, kỹ sư phần mềm backend chuyên về xây dựng các hệ thống ổn định và hiệu suất cao.
 
-Với kinh nghiệm phát triển và vận hành các dịch vụ backend, tôi từng tham gia các hệ thống có lưu lượng truy cập lớn, tích hợp nhiều API từ bên thứ ba và áp dụng các nguyên lý kiến trúc hiện đại như microservices và domain-driven design. Tôi sử dụng thành thạo các công nghệ như .NET, Redis, MongoDB, Kafka và Elasticsearch, đồng thời có khả năng làm việc tốt trong môi trường yêu cầu độ tin cậy cao.
+Tôi có kinh nghiệm phát triển các dịch vụ backend cho hệ thống có lưu lượng truy cập lớn, tích hợp các API từ đối tác và áp dụng các mô hình kiến trúc như **Microservices** hay **Thiết kế hướng tên miền (DDD)**. Tôi làm việc thường xuyên với **.NET**, **Redis**, **MongoDB**, **Kafka** và **Elasticsearch**.
 
-Bên cạnh việc lập trình, tôi chú trọng đến việc viết mã sạch, dễ bảo trì và luôn tuân thủ các nguyên tắc tối ưu hiệu suất, khả năng mở rộng và đảm bảo tính nhất quán của dữ liệu. Tôi cũng có kinh nghiệm triển khai CI/CD, sử dụng Docker và các công cụ giám sát để đảm bảo hệ thống hoạt động ổn định.
+Tôi ưu tiên việc viết mã nguồn sạch, dễ bảo trì và áp dụng các phương pháp tối ưu hiệu năng để đảm bảo tính sẵn sàng của hệ thống. Ngoài ra, tôi cũng có kinh nghiệm vận hành các quy trình **CI/CD** và sử dụng **Docker** để triển khai ứng dụng.
 
-Với tôi, phần mềm tốt không chỉ nằm ở chất lượng mã nguồn mà còn ở khả năng giải quyết vấn đề, nâng cao trải nghiệm người dùng và tạo ra giá trị lâu dài. Tôi luôn sẵn sàng học hỏi, chia sẻ và đóng góp vào các dự án có ý nghĩa.
+Mục tiêu của tôi là tập trung giải quyết các bài toán kỹ thuật thực tế và mang lại giá trị lâu dài cho sản phẩm.
