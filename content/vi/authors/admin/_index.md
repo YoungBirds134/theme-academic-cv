@@ -24,6 +24,9 @@ profiles:
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/YoungBirds134
+  - icon: solid/phone
+    url: tel:0929512395
+    label: 0929512395
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/huynt92/
 work:
@@ -34,23 +37,19 @@ work:
     date_start: 2025-08-04
     date_end: ""
     summary: >-
-      Trách nhiệm và Thành tựu chính:
+      Phát triển và bảo trì nền tảng quản lý quy trình tập trung sử dụng .NET Core và React.
 
+      **Tính năng chính: Web Service Manager Portal**
+
+      - Thiết kế các quy trình quản lý vòng đời dịch vụ đầu cuối bao gồm cấp phát, tạm ngưng, gia hạn và thanh lý cho các sản phẩm Hosting, Microsoft 365 và HiGioCloud.
 
       - Thiết kế kiến trúc và phát triển hệ thống **FCR (Fast Claim Resolution)**, nền tảng **Quản lý sau bán hàng (Post-Sales Management)** sử dụng **.NET 8** và **React 19**.
 
+      - Xây dựng các quy trình tạm ngưng, thanh lý, gia hạn và quản lý vòng đời cho các sản phẩm và dịch vụ kỹ thuật số.
 
-      - Tối ưu hóa các quy trình nghiệp vụ viễn thông phức tạp như **Thanh lý dịch vụ** (IVoice, IDC, SM, Leasedline) và **Gia hạn dịch vụ IDC**.
+      - Triển khai quy trình email tự động cho các thông báo và phê duyệt quy trình.
 
-
-      - Xây dựng các **Business Rule** và logic quyết định tự động, giúp tăng hiệu quả vận hành và giảm **65%** thời gian xử lý thủ công.
-
-
-      - Phát triển **SMP (Service Management Portal) v2.0**, chuyển đổi từ Web MVC cũ sang kiến trúc **Microservices & API-first** hiện đại.
-
-
-      - Tích hợp các chức năng giám sát **triển khai dịch vụ**, **xử lý yêu cầu** và xây dựng **Central Gateway** tập trung.
-
+      - Tích hợp các nền tảng nội bộ (**BMS**, **CM**, **IAM**, **Oncall**) qua REST API để tự động hóa việc kích hoạt dịch vụ, loại bỏ việc phối hợp thủ công.
 
       - Tối ưu hiệu năng API đạt độ trễ dưới **150ms** và xử lý lưu lượng lớn **3.000+ request/giây** bằng **Redis** và **Elasticsearch**.
   - position: Kỹ sư Phần mềm Backend
@@ -60,22 +59,23 @@ work:
     date_start: 2022-04-11
     date_end: 2025-08-01
     summary: >-
-      Các công việc chính:
+      Phát triển và tối ưu hóa các dịch vụ .NET cốt lõi tích hợp với hệ thống của đối tác, đảm bảo độ trễ thấp và lưu lượng ổn định.
 
+      **Tính năng chính: Tích hợp với Vendor Web Services**
 
-      - Tích hợp các dịch vụ thanh toán (**Payoo**, **SmartPay**, **Epay**) và hệ thống phân phối mã phần mềm bằng **.NET Core 2.1** và **.NET 6**.
-
+      - Tích hợp nhiều dịch vụ của đối tác, bao gồm thanh toán hóa đơn (**Payoo**, **SmartPay**, **Epay**, **FTEL**), phân phối mã phần mềm (**PSD**, **FPT Play**, **HTECH**), nạp tiền điện thoại và kích hoạt SIM FPT.
 
       - Tối ưu hóa kế hoạch thực thi **SQL Server** và **Elasticsearch DSL** để cải thiện tốc độ truy vấn và hiệu quả lập chỉ mục.
 
+      - Áp dụng các mẫu thiết kế và nguyên tắc kiến trúc hệ thống như Observer Pattern, Singleton, Message Queue Pattern, Domain-Driven Design (DDD).
 
-      - Refactor các API **Microservices** nhằm giảm độ trễ và tăng khả năng mở rộng hệ thống.
+      **Tính năng chính: Công cụ hỗ trợ vận hành (Operation Assistant Tool)**
 
+      - Giảm 50% khối lượng công việc vận hành, giúp việc quản lý hệ thống hiệu quả hơn cho người vận hành.
 
-      - Quản lý các giao dịch đồng thời quy mô lớn bằng mô hình **Data Versioning** và **Pub/Sub** với **Kafka** và **Redis**.
+      - Tự động hóa các công cụ đối soát, giảm 80% khối lượng công việc cho bộ phận đối soát, loại bỏ các sai sót thủ công.
 
-
-      - Thực hiện **Kiểm thử tích hợp (Integration Testing)** bằng **Postman** để đảm bảo độ tin cậy của hệ thống.
+      - Triển khai quy trình **CI/CD** với **Jenkins** và giám sát hệ thống bằng **Elastic APM**.
   - position: Thực tập sinh Kỹ sư Phần mềm Backend
     company_name: THL One
     company_url: ""
@@ -99,13 +99,17 @@ work:
 skills:
   - name: Kỹ năng chuyên môn
     summary: >
-      Công nghệ: **C#**, **.NET Core**, **ASP.NET**, **Web API**, **Entity Framework Core**
+      Ngôn ngữ lập trình: **C#**, **TypeScript**, **SQL**
+
+      Frontend & Backend: **.NET Core**, **ASP.NET**, **Web API**, **Entity Framework Core**, **React**
 
       Kiến trúc: **Microservices**, **Domain-Driven Design**, **RESTful APIs**
 
       Dữ liệu & Caching: **SQL Server**, **MongoDB**, **Redis**, **Elasticsearch**
 
       Công cụ & DevOps: **Docker**, **Jenkins**, **Kafka**, **Git**, **Jira**, **Postman**
+
+      Giám sát: **Elastic APM**
 
       Quy trình: **Agile (Scrum, Kanban)**
 status:
@@ -145,10 +149,4 @@ languages:
 
 ## Giới thiệu
 
-Tôi là Nguyễn Thanh Huy, kỹ sư phần mềm backend chuyên về xây dựng các hệ thống ổn định và hiệu suất cao.
-
-Tôi có kinh nghiệm phát triển các dịch vụ backend cho hệ thống có lưu lượng truy cập lớn, tích hợp các API từ đối tác và áp dụng các mô hình kiến trúc như **Microservices** hay **Thiết kế hướng tên miền (DDD)**. Tôi làm việc thường xuyên với **.NET**, **Redis**, **MongoDB**, **Kafka** và **Elasticsearch**.
-
-Tôi ưu tiên việc viết mã nguồn sạch, dễ bảo trì và áp dụng các phương pháp tối ưu hiệu năng để đảm bảo tính sẵn sàng của hệ thống. Ngoài ra, tôi cũng có kinh nghiệm vận hành các quy trình **CI/CD** và sử dụng **Docker** để triển khai ứng dụng.
-
-Mục tiêu của tôi là tập trung giải quyết các bài toán kỹ thuật thực tế và mang lại giá trị lâu dài cho sản phẩm.
+Kỹ sư Phần mềm với hơn 3 năm kinh nghiệm phát triển và bảo trì các hệ thống doanh nghiệp trong lĩnh vực viễn thông và bán lẻ. Có kinh nghiệm chuyên sâu về .NET, React, microservices, tự động hóa quy trình và tích hợp hệ thống. Am hiểu về CI/CD, Docker, các công cụ giám sát và hỗ trợ vận hành, với sự quan tâm đặc biệt đến các công nghệ DevOps và Cloud. Luôn tập trung vào việc xây dựng các hệ thống ổn định, có khả năng mở rộng và hiệu quả.
