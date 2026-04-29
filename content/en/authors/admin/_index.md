@@ -22,17 +22,19 @@ work:
     date_start: 2025-08-04
     date_end: ""
     summary: >-
-      Core Responsibilities & Achievements:
+      Developed and maintained a centralized process management platform using .NET Core and React. 
+      
+      **Key Feature: Web Service Manager Portal**
+
+      - Designed end-to-end service lifecycle workflows covering provisioning, suspension, renewal, and liquidation for Hosting, Microsoft 365, and HiGioCloud products across Sales, Contract, and Technical teams.
 
       - Architected and developed the **FCR (Fast Claim Resolution)** system, a comprehensive **Post-Sales Management** platform using **.NET 8** and **React 19**.
 
-      - Streamlined complex ISP claimed workflows, including **Service Liquidation** (IVoice, IDC, SM, Leasedline) and **IDC Service Renewal**.
+      - Built workflows for service suspension, liquidation, renewal, and lifecycle management of digital products and services.
 
-      - Implemented automated **Business Rules** and decision-making logic, increasing operational efficiency and reducing manual handling time by **65%**.
+      - Implemented automated email workflows for process notifications and approvals.
 
-      - Developed the **SMP (Service Management Portal) v2.0**, transitioning from legacy Web MVC to a modern **Microservices & API-first** architecture.
-
-      - Integrated advanced monitoring for **service deployment**, **request handling**, and a **Central Gateway** for unified system access.
+      - Integrated internal platforms (**BMS**, **CM**, **IAM**, **Oncall**) via REST API to automate service activation removing manual coordination between Sales and Technical teams.
 
       - Optimized API performance to achieve sub-**150ms** latency and handled high-concurrency traffic of **3,000+ requests per second** using **Redis** and **Elasticsearch**.
   - position: Backend Software Engineer
@@ -42,17 +44,23 @@ work:
     date_start: 2022-04-11
     date_end: 2025-08-01
     summary: >-
-      Key Work:
+      Developed and optimized core .NET services integrated with partner systems, ensuring low latency and stable throughput.
 
-      - Integrated payment services (**Payoo**, **SmartPay**, **Epay**) and software distribution systems using **.NET Core 2.1** and **.NET 6**.
+      **Key Feature: Integration with Vendor Web Services**
+
+      - Integrated various vendor services, including bill payments (**Payoo**, **SmartPay**, **Epay**, **FTEL**), software key distribution (**PSD**, **FPT Play**, **HTECH**), mobile top-up and recharge, and SIM FPT activation and sales.
 
       - Optimized **SQL Server** execution plans and **Elasticsearch DSL** to improve query performance and indexing efficiency.
 
-      - Refactored **Microservices** APIs to reduce latency and enhance system scalability.
+      - Applied Design Patterns and System Architecture Principles such as Observer Pattern, Singleton, Message Queue Pattern, Domain-Driven Design (DDD) for scalable and maintainable system design.
 
-      - Managed high-volume concurrent transactions using **Data Versioning** and **Pub/Sub** patterns with **Kafka** and **Redis**.
+      **Key Feature: Operation Assistant Tool**
 
-      - Conducted rigorous **Integration Testing** using **Postman** to ensure production reliability.
+      - Reduced operational workload by **50%**, making system management more efficient for operators.
+
+      - Automated reconciliation tools, reducing the workload for the reconciliation department by **80%**, eliminating manual errors.
+
+      - Implemented **CI/CD** pipelines with **Jenkins** and monitored production services using **Elastic APM**.
   - position: Intern Backend Software Engineer
     company_name: THL One
     company_url: ""
@@ -70,9 +78,11 @@ work:
 
       - Built user interfaces using **DevExtreme UI** and **JavaScript**.
 skills:
-  - name: Core Technologies
+  - name: Technical Skills
     summary: >
-      Core Technologies: **C#**, **.NET Core**, **ASP.NET**, **Web API**, **Entity Framework Core**
+      Programing Languages: **C#**, **TypeScript**, **SQL**
+
+      Frontend & Backend: **.NET Core**, **ASP.NET**, **Web API**, **Entity Framework Core**, **React**
 
       Architecture & Patterns: **Microservices**, **Domain-Driven Design**, **RESTful APIs**
 
@@ -91,12 +101,16 @@ education:
     date_start: 2018-08-15
     date_end: 2022-12-31
     summary: ""
+    institution_url: ""
 profiles:
   - icon: at-symbol
     url: mailto:huynguyen2913@gmail.com
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/YoungBirds134
+  - icon: solid/phone
+    url: tel:0929512395
+    label: 0929512395
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/huynt92/
 awards:
@@ -134,10 +148,4 @@ languages:
 
 ## About Me
 
-I'm Nguyen Thanh Huy, a backend software engineer specialized in building stable, high-performance systems.
-
-I have experience in developing backend services for high-traffic systems, integrating third-party APIs, and applying architectural patterns such as **Microservices** and **Domain-Driven Design (DDD)**. I work regularly with **.NET**, **Redis**, **MongoDB**, **Kafka**, and **Elasticsearch**.
-
-I prioritize clean, maintainable code and performance optimization to ensure high system availability. Additionally, I have experience with **CI/CD** pipelines and using **Docker** for deployment.
-
-My goal is to solve practical technical challenges and deliver long-term value to products.
+Software Engineer with 3+ years of experience developing and maintaining enterprise systems in telecom and retail. Experienced in .NET, React, microservices, workflow automation, and system integration. Familiar with CI/CD, Docker, monitoring tools, and production support, with growing interest in DevOps and cloud technologies. Focused on building stable, scalable, and efficient systems.
