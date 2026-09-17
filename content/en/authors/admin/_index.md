@@ -7,12 +7,12 @@ superuser: true
 title: null
 first_name: Nguyen Thanh
 last_name: Huy
-role: Backend Software Engineer
+role: Full Stack / Backend Software Engineer
 status:
   icon: 🇻🇳
 interests:
   - Distributed System
-  - System Design Architechture
+  - System Design Architecture
   - Deep Learning For Cybersecurity
 work:
   - position: FullStack Software Engineer
@@ -22,21 +22,33 @@ work:
     date_start: 2025-08-04
     date_end: ""
     summary: >-
-      Developed and maintained a centralized process management platform using .NET Core and React. 
-      
+      Developed and maintained a centralized process management platform using .NET 8 and React 19.
+
+      Analyzed business requirements and workflows with Business Analysts to design and implement process-driven solutions.
+
+      Built digital transformation workflows supporting multiple business domains, including Accounting, Technical Operations, Sales, and Customer Service.
+
+      Optimized system performance and code quality, ensuring low API latency and stable throughput.
+
+      Collaborated with Business Owners and Product Owners to design and enhance service management workflows.
+
+      Designed automation workflows with cron jobs, email notifications, reporting modules, and third-party system integrations.
+
       **Key Feature: Web Service Manager Portal**
 
-      - Designed end-to-end service lifecycle workflows covering provisioning, suspension, renewal, and liquidation for Hosting, Microsoft 365, and HiGioCloud products across Sales, Contract, and Technical teams.
-
-      - Architected and developed the **FCR (Fast Claim Resolution)** system, a comprehensive **Post-Sales Management** platform using **.NET 8** and **React 19**.
+      - Developed and managed workflows for surveying, deploying, and provisioning service products such as Hosting, OnCall, Trial Services, Microsoft Service Packages, and HI GIO Cloud.
 
       - Built workflows for service suspension, liquidation, renewal, and lifecycle management of digital products and services.
 
       - Implemented automated email workflows for process notifications and approvals.
 
-      - Integrated internal platforms (**BMS**, **CM**, **IAM**, **Oncall**) via REST API to automate service activation removing manual coordination between Sales and Technical teams.
+      - Developed reporting workflows for product and service management.
 
-      - Optimized API performance to achieve sub-**150ms** latency and handled high-concurrency traffic of **3,000+ requests per second** using **Redis** and **Elasticsearch**.
+      - Designed and implemented cron-job based automation to streamline operational workflows.
+
+      - Integrated the platform with third-party internal and external systems.
+
+      - Improved system scalability, performance, and maintainability through code optimization and architecture improvements.
   - position: Backend Software Engineer
     company_name: FPT Retail
     company_url: ""
@@ -46,37 +58,41 @@ work:
     summary: >-
       Developed and optimized core .NET services integrated with partner systems, ensuring low latency and stable throughput.
 
+      Applied Design Patterns and System Architecture Principles such as Observer Pattern, Singleton, Message Queue Pattern, Domain-Driven Design (DDD) for scalable and maintainable system design.
+
+      Implemented CI/CD pipelines with Jenkins and monitored production services using Elastic APM to improve deployment efficiency and system reliability.
+
       **Key Feature: Integration with Vendor Web Services**
 
-      - Integrated various vendor services, including bill payments (**Payoo**, **SmartPay**, **Epay**, **FTEL**), software key distribution (**PSD**, **FPT Play**, **HTECH**), mobile top-up and recharge, and SIM FPT activation and sales.
+      - Integrated various vendor services, including bill payments (Payoo, SmartPay, Epay, FTEL,..), software key distribution (PSD, FPT Play, HTECH,...), mobile top-up and recharge, and SIM FPT activation and sales, ensuring smooth transactions and efficient system performance.
 
-      - Optimized **SQL Server** execution plans and **Elasticsearch DSL** to improve query performance and indexing efficiency.
+      - Resolved technical debt by upgrading the system from .NET Core 2.1 to .NET 6, improving performance, security, and maintainability.
 
-      - Applied Design Patterns and System Architecture Principles such as Observer Pattern, Singleton, Message Queue Pattern, Domain-Driven Design (DDD) for scalable and maintainable system design.
+      - Optimized SQL query execution plans, improving indexing efficiency, minimizing round-trip time, and enhancing overall query performance.
+
+      - Refactored APIs to reduce latency (under 200ms), increase throughput, and optimize microservices performance, enhancing scalability and system resilience.
+
+      - Reduced service bottlenecks during peak transaction periods, enhancing system performance, throughput, and responsiveness.
+
+      - Handled concurrent transactions using the Pub/Sub Pattern, ensuring data consistency.
 
       **Key Feature: Operation Assistant Tool**
 
-      - Reduced operational workload by **50%**, making system management more efficient for operators.
+      - Reduced operational workload by 50%, making system management more efficient for operators.
 
-      - Automated reconciliation tools, reducing the workload for the reconciliation department by **80%**, eliminating manual errors.
+      - Automated reconciliation tools, reducing the workload for the reconciliation department by 80%, eliminating manual errors, and minimizing financial risks.
 
-      - Implemented **CI/CD** pipelines with **Jenkins** and monitored production services using **Elastic APM**.
+      - Improved error detection by providing detailed vendor error messages, enabling faster resolution through vendor support channels.
   - position: Intern Backend Software Engineer
     company_name: THL One
     company_url: ""
     company_logo: ""
     date_start: 2021-10-01
     date_end: 2022-04-01
-    summary: >
-      Key Work:
+    summary: >-
+      - Developed and optimized data import workflows for ERP system using ADO.NET and SQL Server — improving data processing speed and reducing query execution time.
 
-      - Developed and tested data management screens for the **ERP** system.
-
-      - Implemented **CRUD** operations using **ADO.NET** and **SQL Server**, optimizing data processing speed.
-
-      - Gained experience with **MVC** framework for backend logic and data flow management.
-
-      - Built user interfaces using **DevExtreme UI** and **JavaScript**.
+      - Built and tested backend modules following MVC architecture, contributing to data flow reliability and system maintainability.
 skills:
   - name: Technical Skills
     summary: >
@@ -96,9 +112,9 @@ skills:
 
       Methodologies: **Agile (Scrum, Kanban)**
 education:
-  - area: The Degree of Engineer Information Technology
+  - area: The Degree of Engineer Information Technology, Major in Software Engineering
     institution: Ho Chi Minh City University of Food Industry
-    date_start: 2018-08-15
+    date_start: 2018-09-01
     date_end: 2022-12-31
     summary: ""
 profiles:
@@ -147,4 +163,4 @@ languages:
 
 ## About Me
 
-Software Engineer with 3+ years of experience developing and maintaining enterprise systems in telecom and retail. Experienced in .NET, React, microservices, workflow automation, and system integration. Familiar with CI/CD, Docker, monitoring tools, and production support, with growing interest in DevOps and cloud technologies. Focused on building stable, scalable, and efficient systems.
+Full Stack / Backend Software Engineer with 4+ years of experience building and operating enterprise-scale systems at FPT Telecom and FPT Retail. Experienced in designing scalable backend services, workflow automation, system integrations, and developing business platforms using .NET, React, microservices, and cloud-related technologies. Hands-on experience with CI/CD, containerization, monitoring, and production operations, with growing focus on DevOps and cloud infrastructure. Passionate about building reliable, high-performance systems and bridging software engineering with modern DevOps practices.
