@@ -7,15 +7,15 @@ superuser: true
 title: null
 first_name: Nguyễn Thanh
 last_name: Huy
-role: Kỹ sư Phần mềm Backend
+role: Kỹ sư Phần mềm FullStack / Backend
 interests:
   - Hệ thống phân tán
   - Kiến trúc hệ thống
   - Học sâu trong an toàn thông tin
 education:
-  - area: Kỹ sư Công nghệ Thông tin
+  - area: Kỹ sư Công nghệ Thông tin, Chuyên ngành Kỹ thuật Phần mềm
     institution: Trường Đại học Công Nghiệp Thực Phẩm TP.HCM
-    date_start: 2018-08-15
+    date_start: 2018-09-01
     date_end: 2022-12-31
     summary: ""
 profiles:
@@ -37,21 +37,33 @@ work:
     date_start: 2025-08-04
     date_end: ""
     summary: >-
-      Phát triển và bảo trì nền tảng quản lý quy trình tập trung sử dụng .NET Core và React.
+      Phát triển và bảo trì nền tảng quản lý quy trình tập trung sử dụng .NET 8 và React 19.
+
+      Phân tích yêu cầu nghiệp vụ và quy trình cùng với Business Analyst để thiết kế và triển khai các giải pháp hướng quy trình.
+
+      Xây dựng quy trình chuyển đổi số hỗ trợ nhiều lĩnh vực kinh doanh, bao gồm Kế toán, Vận hành kỹ thuật, Bán hàng và Chăm sóc khách hàng.
+
+      Tối ưu hiệu năng hệ thống và chất lượng mã nguồn, đảm bảo độ trễ API thấp và lưu lượng ổn định.
+
+      Phối hợp với Business Owner và Product Owner để thiết kế và nâng cao các quy trình quản lý dịch vụ.
+
+      Thiết kế các quy trình tự động hóa với cron job, thông báo email, mô-đun báo cáo và tích hợp hệ thống bên thứ ba.
 
       **Tính năng chính: Web Service Manager Portal**
 
-      - Thiết kế các quy trình quản lý vòng đời dịch vụ đầu cuối bao gồm cấp phát, tạm ngưng, gia hạn và thanh lý cho các sản phẩm Hosting, Microsoft 365 và HiGioCloud.
+      - Phát triển và quản lý các quy trình khảo sát, triển khai và cấp phát sản phẩm dịch vụ như Hosting, OnCall, Dịch vụ thử nghiệm, Gói dịch vụ Microsoft và HI GIO Cloud.
 
-      - Thiết kế kiến trúc và phát triển hệ thống **FCR (Fast Claim Resolution)**, nền tảng **Quản lý sau bán hàng (Post-Sales Management)** sử dụng **.NET 8** và **React 19**.
-
-      - Xây dựng các quy trình tạm ngưng, thanh lý, gia hạn và quản lý vòng đời cho các sản phẩm và dịch vụ kỹ thuật số.
+      - Xây dựng quy trình tạm ngưng, thanh lý, gia hạn và quản lý vòng đời của các sản phẩm và dịch vụ kỹ thuật số.
 
       - Triển khai quy trình email tự động cho các thông báo và phê duyệt quy trình.
 
-      - Tích hợp các nền tảng nội bộ (**BMS**, **CM**, **IAM**, **Oncall**) qua REST API để tự động hóa việc kích hoạt dịch vụ, loại bỏ việc phối hợp thủ công.
+      - Phát triển quy trình báo cáo phục vụ quản lý sản phẩm và dịch vụ.
 
-      - Tối ưu hiệu năng API đạt độ trễ dưới **150ms** và xử lý lưu lượng lớn **3.000+ request/giây** bằng **Redis** và **Elasticsearch**.
+      - Thiết kế và triển khai tự động hóa dựa trên cron job để tối ưu hóa quy trình vận hành.
+
+      - Tích hợp nền tảng với các hệ thống nội bộ và bên ngoài của bên thứ ba.
+
+      - Cải thiện khả năng mở rộng, hiệu năng và khả năng bảo trì hệ thống thông qua tối ưu hóa mã nguồn và cải tiến kiến trúc.
   - position: Kỹ sư Phần mềm Backend
     company_name: FPT Retail
     company_url: ""
@@ -59,43 +71,43 @@ work:
     date_start: 2022-04-11
     date_end: 2025-08-01
     summary: >-
-      Phát triển và tối ưu hóa các dịch vụ .NET cốt lõi tích hợp với hệ thống của đối tác, đảm bảo độ trễ thấp và lưu lượng ổn định.
+      Phát triển và tối ưu hóa các dịch vụ .NET cốt lõi tích hợp với hệ thống đối tác, đảm bảo độ trễ thấp và lưu lượng ổn định.
+
+      Áp dụng các Mẫu thiết kế (Design Patterns) và Nguyên tắc Kiến trúc Hệ thống như Observer Pattern, Singleton, Message Queue Pattern, Domain-Driven Design (DDD) để thiết kế hệ thống có khả năng mở rộng và dễ bảo trì.
+
+      Triển khai quy trình CI/CD với Jenkins và giám sát các dịch vụ sản phẩm sử dụng Elastic APM để nâng cao hiệu quả triển khai và độ tin cậy của hệ thống.
 
       **Tính năng chính: Tích hợp với Vendor Web Services**
 
-      - Tích hợp nhiều dịch vụ của đối tác, bao gồm thanh toán hóa đơn (**Payoo**, **SmartPay**, **Epay**, **FTEL**), phân phối mã phần mềm (**PSD**, **FPT Play**, **HTECH**), nạp tiền điện thoại và kích hoạt SIM FPT.
+      - Tích hợp nhiều dịch vụ đối tác, bao gồm thanh toán hóa đơn (Payoo, SmartPay, Epay, FTEL,..), phân phối mã phần mềm (PSD, FPT Play, HTECH,...), nạp tiền điện thoại và kích hoạt/bán SIM FPT, đảm bảo giao dịch thông suốt và hiệu năng hệ thống tối ưu.
 
-      - Tối ưu hóa kế hoạch thực thi **SQL Server** và **Elasticsearch DSL** để cải thiện tốc độ truy vấn và hiệu quả lập chỉ mục.
+      - Xử lý nợ kỹ thuật (technical debt) bằng cách nâng cấp hệ thống từ .NET Core 2.1 lên .NET 6, cải thiện hiệu năng, bảo mật và khả năng bảo trì.
 
-      - Áp dụng các mẫu thiết kế và nguyên tắc kiến trúc hệ thống như Observer Pattern, Singleton, Message Queue Pattern, Domain-Driven Design (DDD).
+      - Tối ưu hóa kế hoạch thực thi truy vấn SQL, nâng cao hiệu quả đánh chỉ mục, giảm thời gian phản hồi và tăng hiệu suất truy vấn.
 
-      **Tính năng chính: Công cụ hỗ trợ vận hành (Operation Assistant Tool)**
+      - Tái cấu trúc API để giảm độ trễ (dưới 200ms), tăng lưu lượng xử lý và tối ưu hóa hiệu năng microservices, nâng cao khả năng mở rộng và độ chống chịu của hệ thống.
 
-      - Giảm 50% khối lượng công việc vận hành, giúp việc quản lý hệ thống hiệu quả hơn cho người vận hành.
+      - Giảm thiểu điểm nghẽn dịch vụ trong các đợt cao điểm giao dịch, nâng cao hiệu năng, lưu lượng và độ phản hồi của hệ thống.
 
-      - Tự động hóa các công cụ đối soát, giảm 80% khối lượng công việc cho bộ phận đối soát, loại bỏ các sai sót thủ công.
+      - Xử lý các giao dịch đồng thời sử dụng mô hình Pub/Sub, đảm bảo tính nhất quán của dữ liệu.
 
-      - Triển khai quy trình **CI/CD** với **Jenkins** và giám sát hệ thống bằng **Elastic APM**.
+      **Tính năng chính: Công cụ Hỗ trợ Vận hành (Operation Assistant Tool)**
+
+      - Giảm 50% khối lượng công việc vận hành, giúp việc quản lý hệ thống hiệu quả hơn cho nhân viên vận hành.
+
+      - Tự động hóa các công cụ đối soát, giảm 80% khối lượng công việc cho bộ phận đối soát, loại bỏ sai sót thủ công và giảm thiểu rủi ro tài chính.
+
+      - Cải thiện khả năng phát hiện lỗi bằng cách cung cấp thông báo lỗi chi tiết từ nhà cung cấp, giúp xử lý sự cố nhanh hơn qua các kênh hỗ trợ của đối tác.
   - position: Thực tập sinh Kỹ sư Phần mềm Backend
     company_name: THL One
     company_url: ""
     company_logo: ""
     date_start: 2021-10-01
     date_end: 2022-04-01
-    summary: >
-      Các công việc chính:
+    summary: >-
+      - Phát triển và tối ưu hóa quy trình nhập dữ liệu cho hệ thống ERP bằng ADO.NET và SQL Server — cải thiện tốc độ xử lý dữ liệu và giảm thời gian thực thi truy vấn.
 
-
-      - Phát triển và kiểm thử các màn hình quản lý dữ liệu cho hệ thống **ERP**.
-
-
-      - Thực hiện các nghiệp vụ **CRUD** sử dụng **ADO.NET** và **SQL Server**, tối ưu hóa tốc độ xử lý dữ liệu.
-
-
-      - Làm việc với mô hình **MVC** để xử lý logic backend và quản lý luồng dữ liệu.
-
-
-      - Tham gia phát triển giao diện người dùng bằng **DevExtreme UI** và **JavaScript**.
+      - Xây dựng và kiểm thử các mô-đun backend theo kiến trúc MVC, đóng góp vào độ tin cậy của luồng dữ liệu và khả năng bảo trì hệ thống.
 skills:
   - name: Kỹ năng chuyên môn
     summary: >
@@ -103,11 +115,13 @@ skills:
 
       Frontend & Backend: **.NET Core**, **ASP.NET**, **Web API**, **Entity Framework Core**, **React**
 
-      Kiến trúc: **Microservices**, **Domain-Driven Design**, **RESTful APIs**
+      Kiến trúc & Mẫu thiết kế: **Microservices**, **Domain-Driven Design**, **RESTful APIs**
 
-      Dữ liệu & Caching: **SQL Server**, **MongoDB**, **Redis**, **Elasticsearch**
+      Dữ liệu & Caching: **Microsoft SQL Server**, **MongoDB**, **Redis**
 
-      Công cụ & DevOps: **Docker**, **Jenkins**, **Kafka**, **Git**, **Jira**, **Postman**
+      Message Brokers & Search Engine: **Kafka**, **Elasticsearch**
+
+      DevOps & Công cụ: **Docker**, **Jenkins**, **Git**, **Jira**, **Postman**
 
       Giám sát: **Elastic APM**
 
@@ -149,4 +163,4 @@ languages:
 
 ## Giới thiệu
 
-Kỹ sư Phần mềm với hơn 3 năm kinh nghiệm phát triển và bảo trì các hệ thống doanh nghiệp trong lĩnh vực viễn thông và bán lẻ. Có kinh nghiệm chuyên sâu về .NET, React, microservices, tự động hóa quy trình và tích hợp hệ thống. Am hiểu về CI/CD, Docker, các công cụ giám sát và hỗ trợ vận hành, với sự quan tâm đặc biệt đến các công nghệ DevOps và Cloud. Luôn tập trung vào việc xây dựng các hệ thống ổn định, có khả năng mở rộng và hiệu quả.
+Kỹ sư Phần mềm FullStack / Backend với hơn 4 năm kinh nghiệm xây dựng và vận hành các hệ thống quy mô doanh nghiệp tại FPT Telecom và FPT Retail. Có kinh nghiệm thiết kế dịch vụ backend có khả năng mở rộng, tự động hóa quy trình, tích hợp hệ thống và phát triển các nền tảng kinh doanh sử dụng .NET, React, microservices và các công nghệ điện toán đám mây. Kinh nghiệm thực chiến với CI/CD, đóng gói container, giám sát hệ thống và vận hành sản phẩm, với sự tập trung ngày càng tăng vào DevOps và hạ tầng đám mây. Đam mê xây dựng các hệ thống tin cậy, hiệu năng cao và kết nối kỹ thuật phần mềm với các thực thi DevOps hiện đại.
